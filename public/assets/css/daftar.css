@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: #99CCCC;
+}
+
+.center
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8cm;
+}
+
+.textdaftar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #669999;
+    width: 40%;
+    height: 2.3cm;
+    border-radius: 20px;
+    z-index: -10;
+}
+
+.textdaftar h3
+{
+    color: white;
+    margin-top: -30px;
+    text-transform: uppercase;
+}
+
+.formdaftar
+{
+    background: white;
+    width: 40%;
+    height: 10.5cm;
+    border-radius: 30px;
+    margin-top: -40px;
+}
+
+.inp_form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inpbox
+{
+    margin: 1cm 0 1cm 0;
+}
+
+.formdaftar label
+{
+    margin: 0 0 0 1.6cm;
+    font-size: 20px;
+}
+
+.inp_form input
+{
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    background: #e5e5e5;
+}
+
+.btnbox
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: -0.5cm 1cm 0 0;
+}
+
+.btnmasuk
+{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background: #336699;
+}
+
+.btnmasuk:hover
+{
+    background: #48daff;
+    transition: 0.5s;
+}
+
+.btnmasuk button
+{
+    color: white;
+    background-color: #336699;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.center h4
+{
+    margin-top: 0.5cm;
+    font-size: 25px;
+    font-weight: 450;
+}
+
+a
+{
+    color: green;
+}

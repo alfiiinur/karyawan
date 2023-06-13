@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #bcaec6;
+}
+
+.btndataperizinan {
+  position: relative;
+  margin: 1cm 0 0 1cm;
+}
+
+.btndataperizinan a {
+  text-decoration: none;
+  color: #863a6f;
+  font-weight: bold;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+.center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -1.5cm;
+  justify-content: center;
+  margin-top: -1cm;
+}
+
+.tittle_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #863a6f;
+  width: 20%;
+  height: 1.5cm;
+  margin-left: 2cm;
+  border-radius: 30px;
+}
+
+.tittle_text h3 {
+  color: white;
+}
+
+.inp_form {
+  display: flex;
+  width: 70%;
+  margin-top: 1cm;
+}
+
+.inp_form label {
+  justify-content: flex-start;
+  font-size: 20px;
+  width: 30%;
+}
+
+.inp_form h3 {
+  margin: 0 1cm 0 0;
+}
+
+.inp_form select {
+  width: 100%;
+  border: 1px solid white;
+  background: white;
+}
+
+.inp_form textarea {
+  min-width: 73.5%;
+  min-height: 4cm;
+  max-height: 4cm;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 380;
+  border: 1px solid white;
+}
+
+.inp_form input[type="date"] {
+  width: 100%;
+  border: 1px solid white;
+  background: white;
+  padding-left: 5px;
+  font-weight: 400;
+}
+
+.btnbox {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.7cm 2cm -2cm 0;
+}
+
+.btnsubmit {
+  position: relative;
+  width: 150px;
+  height: 37px;
+  border-radius: 20px;
+  background: #d989b5;
+}
+
+.btnsubmit button {
+  color: white;
+  background-color: #d989b5;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 37px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btnsubmit:hover {
+  background: #d989b5;
+  transition: 0.5s;
+}
